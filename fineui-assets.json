@@ -1,8 +1,0 @@
-{
-  "schemaVersion": 1,
-  "productVersion": "16.0.0-beta.1",
-  "sourceRepository": "https://github.com/sanshi/FineUI.Pro.Examples",
-  "targetPath": "FineUI.Core.EmptyProject/wwwroot/res",
-  "fileCount": 1765,
-  "treeSha256": "cd68dddd71db3a3d2b1dc6bf78fee150dfdb1423b4711f34c5dc80bab4b76509"
-}
