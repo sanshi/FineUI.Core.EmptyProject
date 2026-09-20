@@ -1,9 +1,8 @@
 {
   "schemaVersion": 2,
   "auditStatus": "complete",
-  "auditBaseline": "fineui-public-assets-2026-09-17",
   "targetPath": "FineUI.Core.EmptyProject/wwwroot/res",
-  "resourceTreeSha256": "cd68dddd71db3a3d2b1dc6bf78fee150dfdb1423b4711f34c5dc80bab4b76509",
+  "resourceTreeSha256": "a27d19f8dce6284b0eaeb8cfbf93fca9a0ff7700ca15626ae2e8989f778251f6",
   "thirdPartyAssets": [
     {
       "name": "FamFamFam Silk Icons",
