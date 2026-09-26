@@ -6,14 +6,7 @@
 
 namespace FineUI.Core.EmptyProject.Pages
 {
-	public partial class LoginModel
+	public partial class ErrorModel
 	{
-		protected FineUI.Core.Window Window1;
-		protected FineUI.Core.SimpleForm SimpleForm1;
-		protected FineUI.Core.TextBox tbxUserName;
-		protected FineUI.Core.TextBox tbxPassword;
-		protected FineUI.Core.Toolbar Toolbar1;
-		protected FineUI.Core.Button btnLogin;
-		protected FineUI.Core.Button btnReset;
 	}
 }
