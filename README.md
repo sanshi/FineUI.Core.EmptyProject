@@ -4,7 +4,7 @@ FineUI.Core.EmptyProject 是 FineUI 官方最小空项目模板。本仓库是�
 
 ## 依赖方式
 
-项目文件已声明从公共软件包仓库获取的 NuGet 包 `FineUI.Core`。正常联网构建时，包管理器会自动还原依赖；仓库不包含 FineUI.Core.dll、FineUI.Pro.dll、fineui-java.jar，也不包含 FineUI 框架源码。
+项目文件已声明从公共软件包仓库获取的 NuGet 包 `FineUI.Core`。正常联网构建时，包管理器会自动还原依赖。
 
 ## 生成设计时文件
 
