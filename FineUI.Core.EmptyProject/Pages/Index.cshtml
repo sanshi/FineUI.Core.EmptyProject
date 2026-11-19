@@ -121,8 +121,8 @@
 
     <f:Panel ID="mainPanel" Layout="Region" CssClass="mainpanel" ShowBorder="false" ShowHeader="false" IsViewPort="true">
         <Items>
-            <f:Panel ID="sidebarRegion" CssClass="sidebarregion" RegionPosition="Left" ShowBorder="false" Width="320" ShowHeader="false"
-                     EnableCollapse="false" Collapsed="false" Layout="VBox" RegionSplit="true" RegionSplitIcon="false" RegionSplitWidth="3" RegionSplitTransparent="true">
+            <f:Panel ID="sidebarRegion" CssClass="sidebarregion" RegionPosition="Left" ShowBorder="false" Width="320" ShowHeader="false" EnableCollapse="false"
+                Collapsed="false" Layout="VBox" RegionSplit="true" RegionSplitIcon="false" RegionSplitWidth="3" RegionSplitTransparent="true">
                 <Items>
                     <f:ContentPanel ID="sideheaderTopPanel" CssClass="topregion" ShowBorder="false" ShowHeader="false">
                         <div id="sideheader" class="f-widget-header f-mainheader">
@@ -146,7 +146,8 @@
                     </f:ContentPanel>
                     <f:Panel ID="leftPanel" CssClass="leftregion" BoxFlex="1" ShowBorder="false" ShowHeader="false" Layout="Fit">
                         <Items>
-                            <f:Tree ID="treeMenu" ShowBorder="false" ShowHeader="false" HideHScrollbar="true" HideVScrollbar="true" ExpanderToRight="true" HeaderStyle="true" AllHeaderStyle="true">
+                            <f:Tree ID="treeMenu" ShowBorder="false" ShowHeader="false" HideHScrollbar="true" HideVScrollbar="true" ExpanderToRight="true"
+                                HeaderStyle="true" AllHeaderStyle="true">
                                 <Nodes>
                                     <f:TreeNode Text="默认分类" Expanded="true">
                                         <f:TreeNode Text="开始页面" NavigateUrl="@Url.Content("~/Hello")"></f:TreeNode>
@@ -163,11 +164,14 @@
                     <f:ContentPanel ID="topPanel" CssClass="topregion" ShowBorder="false" ShowHeader="false">
                         <div id="header" class="f-widget-header f-mainheader">
                             <div class="header-left">
-                                <f:Button ID="btnCollapseSidebar" CssClass="icononlyaction" ToolTip="折叠/展开侧边栏" IconAlign="Top" IconFont="_Fold" EnableDefaultState="false" TabIndex="-1" ClickHandler="onFoldClick"></f:Button>
+                                <f:Button ID="btnCollapseSidebar" CssClass="icononlyaction" ToolTip="折叠/展开侧边栏" IconAlign="Top" IconFont="_Fold"
+                                    EnableDefaultState="false" TabIndex="-1" ClickHandler="onFoldClick"></f:Button>
                             </div>
                             <div class="header-right">
-                                <f:Button ID="btnThemeSelect" EnableDefaultCorner="false" EnableDefaultState="false" IconFont="_Skin" IconAlign="Top" CssClass="icononlyaction themes" ToolTip="主题仓库" ClickHandler="onThemeSelectClick"></f:Button>
-                                <f:Button EnableDefaultCorner="false" EnableDefaultState="false" IconUrl="@Url.Content("~/res/images/my-face-80.jpg")" IconAlign="Left" CssClass="userpicaction" Text="三生石上">
+                                <f:Button ID="btnThemeSelect" EnableDefaultCorner="false" EnableDefaultState="false" IconFont="_Skin" IconAlign="Top"
+                                    CssClass="icononlyaction themes" ToolTip="主题仓库" ClickHandler="onThemeSelectClick"></f:Button>
+                                <f:Button EnableDefaultCorner="false" EnableDefaultState="false" IconUrl="@Url.Content("~/res/images/my-face-80.jpg")" IconAlign="Left"
+                                    CssClass="userpicaction" Text="三生石上">
                                     <Menu>
                                         <Items>
                                             <f:MenuButton IconFont="_User" Text="个人信息" ClickHandler="onUserProfileClick">
@@ -180,9 +184,11 @@
                             </div>
                         </div>
                     </f:ContentPanel>
-                    <f:TabStrip ID="mainTabStrip" CssClass="centerregion" ShowInkBar="true" InkBarPosition="Bottom" BoxFlex="1" ShowBorder="true" EnableTabCloseMenu="true">
+                    <f:TabStrip ID="mainTabStrip" CssClass="centerregion" ShowInkBar="true" InkBarPosition="Bottom" BoxFlex="1" ShowBorder="true"
+                        EnableTabCloseMenu="true">
                         <Tabs>
-                            <f:Tab ID="tabHomepage" Title="首页" IconFont="_Home" EnableIFrame="false" BodyPadding="10" ContentEl="#maincontent" AutoScroll="true">
+                            <f:Tab ID="tabHomepage" Title="首页" IconFont="_Home" EnableIFrame="false" BodyPadding="10" ContentEl="#maincontent"
+                                AutoScroll="true">
                             </f:Tab>
                         </Tabs>
                     </f:TabStrip>
@@ -191,8 +197,8 @@
         </Items>
     </f:Panel>
 
-    <f:Window ID="windowThemeRoller" Hidden="true" EnableResize="true" EnableMaximize="true" EnableClose="true" Height="600" Width="850"
-              IsModal="true" ClearIFrameAfterClose="false" IFrameUrl="@Url.Content("~/Themes")" EnableIFrame="true" Title="主题仓库"></f:Window>
+    <f:Window ID="windowThemeRoller" Hidden="true" EnableResize="true" EnableMaximize="true" EnableClose="true" Height="600" Width="850" IsModal="true"
+        ClearIFrameAfterClose="false" IFrameUrl="@Url.Content("~/Themes")" EnableIFrame="true" Title="主题仓库"></f:Window>
 
     @{
         
